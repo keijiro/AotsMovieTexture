@@ -7,6 +7,6 @@ Movie Texture in Unity has several drawbacks. One of the most important disadvan
 is the lack of capability to handle alpha channel.
 
 This shader is a dumb workaround for it — place an image and an alpha mask side by side,
-and then it composites them into an ARGB texture.
+and then the shader composites them into an ARGB texture.
 
 ![Screenshot](http://keijiro.github.io/AotsMovieTexture/screenshot2.png)
